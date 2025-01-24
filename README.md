@@ -4,7 +4,7 @@ This repository contains an interactive application that demonstrates how Bayesi
 
 ## Motivation
 
-Bayesian inference is a cornerstone of modern statistics and machine learning. This project showcases its power and simplicity by focusing on a classic example: estimating the bias (\( \theta \)) of a coin as evidence (coin tosses) accumulates.
+Bayesian inference is a cornerstone of modern statistics and machine learning. This project showcases its power and simplicity by focusing on a classic example: estimating the bias $\theta$ of a coin as evidence (coin tosses) accumulates.
 
 The project is both educational and interactive, making it an excellent resource for learners and enthusiasts who want to deepen their understanding of Bayesian concepts.
 
@@ -12,10 +12,10 @@ The project is both educational and interactive, making it an excellent resource
 
 1. **Bayesian Update Rule**: The application uses Bayes' Theorem to update the posterior probability density of the coin bias after each toss.
 2. **Interactive Features**: 
-   - Adjust the coin's bias (\( \theta \)) using a slider.
+   - Adjust the coin's bias $\theta$ using a slider.
    - Toss the coin and watch the probability density function (PDF) update dynamically.
    - Clear the experiment to start over.
-3. **Theoretical Foundation**: The probability density follows a Beta distribution, which depends on the number of tosses (\( n \)) and the number of heads (\( k \)) observed.
+3. **Theoretical Foundation**: The probability density follows a Beta distribution, which depends on the number of tosses $n$ and the number of heads $k$ observed.
 
 For more details, consult the [theory document](./theory_coin_experiment.pdf).
 
